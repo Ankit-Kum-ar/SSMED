@@ -15,3 +15,27 @@ export const products = [
         description: "An advanced ultrasound machine designed for high-resolution imaging, making diagnostics faster and more accurate.",
     }
 ]
+
+export const testimonials = [
+  {
+    name: "Donald Jackman",
+    role: "Content Creator",
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp", // Replace with your image path
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
+  },
+  {
+    name: "Donald Jackman",
+    role: "Content Creator",
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
+  },
+  {
+    name: "Donald Jackman",
+    role: "Content Creator",
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
+  },
+];
