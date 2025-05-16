@@ -1,4 +1,4 @@
-import { Activity, Building, Handshake, Hospital, Users } from 'lucide-react';
+import { Building, Handshake, Hospital, Users } from 'lucide-react';
 
 const OurReach = () => {
   return (

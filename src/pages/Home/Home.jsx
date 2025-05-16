@@ -1,10 +1,11 @@
-import { Hero, OurReach } from "./components"
+import { Hero, OurReach, OurSolution } from "./components"
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <OurReach />
+      <OurSolution />
     </div>
   )
 }
