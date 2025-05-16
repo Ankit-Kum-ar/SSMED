@@ -39,3 +39,30 @@ export const testimonials = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
   },
 ];
+
+export const collaborations = [
+  {
+    name: "Defence Research and Development Organisation (DRDO)",
+    logo: "/drdo.png",
+  },
+  {
+    name: "Society for Applied Microwave Electronics Engineering & Research (SAMEER)",
+    logo: "/sameer.png",
+  },
+  {
+    name: "Council of Scientific & Industrial Research - Indian Institute Of Toxicology Research",
+    logo: "/csir.png",
+  },
+  {
+    name: "Department of Scientific and Industrial Research (DSIR)",
+    logo: "/dsir.png",
+  },
+  {
+    name: "Indian Council of Medical Research (ICMR)",
+    logo: "/icmr.png",
+  },
+  {
+    name: "All India Institute of Medical Sciences (AIIMS)",
+    logo: "/aiims.png",
+  },
+];

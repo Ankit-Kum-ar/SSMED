@@ -1,4 +1,4 @@
-import { Hero, OurReach, OurSolution, Testimonials } from "./components"
+import { Hero, OurCollaborations, OurReach, OurSolution, Testimonials } from "./components"
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <OurReach />
       <OurSolution />
       <Testimonials />
+      <OurCollaborations />
     </div>
   )
 }
