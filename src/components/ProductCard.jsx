@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
       >
         {/* Front Side */}
         <div
-          className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-xl font-bold rounded-lg"
+          className="absolute inset-0 bg-opacity-50 flex items-center justify-center text-white text-xl font-bold rounded-lg"
           style={{
             backfaceVisibility: "hidden",
             backgroundImage: `url(${product.image})`,
