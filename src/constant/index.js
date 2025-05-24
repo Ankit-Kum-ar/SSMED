@@ -18,26 +18,26 @@ export const products = [
 
 export const testimonials = [
   {
-    name: "Donald Jackman",
-    role: "Content Creator",
-    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp", // Replace with your image path
+    name: " Dr. A. Sharma",
+    role: "Delhi",
+    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp", // Replace with your image path
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
+    "S.S. Medical's equipment has significantly improved our diagnostic capabilities. Their commitment to quality is unparalleled."
   },
   {
-    name: "Donald Jackman",
-    role: "Content Creator",
-    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    name: "Dr. L. Gupta",
+    role: "Mumbai",
+    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
+    "The reliability and efficiency of their products have been a game-changer for our hospital operations."
   },
   {
-    name: "Donald Jackman",
-    role: "Content Creator",
-    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    name: "Dr. R. Mehta",
+    role: "Bangalore",
+    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip",
-  },
+    "Exceptional service and top-notch equipment. Highly recommended!"
+   },
 ];
 
 export const collaborations = [

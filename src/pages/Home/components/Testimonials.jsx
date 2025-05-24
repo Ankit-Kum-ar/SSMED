@@ -15,7 +15,7 @@ const Testimonials = () => {
                     key={idx}
                     className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center max-w-sm w-full"
                 >
-                    <div className="relative mb-4">
+                    {/* <div className="relative mb-4">
                         <img
                             src={t.image}
                             alt={t.name}
@@ -24,7 +24,7 @@ const Testimonials = () => {
                         <span className="absolute top-0 right-0 bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold border-2 border-white">
                             &#8220;
                         </span>
-                    </div>
+                    </div> */}
                     <p className="text-gray-600 text-center mb-6">{t.quote}</p>
                     <div className="text-center">
                         <div className="font-bold text-lg text-[#2C3A4B]">{t.name}</div>
