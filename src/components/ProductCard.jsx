@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="relative w-full h-96 rounded-lg shadow-lg cursor-pointer"
+      className="relative w-full h-126  rounded-lg shadow-lg cursor-pointer"
       style={{ perspective: "1000px" }}
       onClick={handleFlip}
     >
@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
       >
         {/* Front Side */}
         <div
-          className="absolute inset-0 bg-opacity-50 flex items-center justify-center text-white text-xl font-bold rounded-lg"
+          className="absolute inset-0 bg-opacity-50 flex items-center p-5 justify-center  text-white text-xl font-bold rounded-lg"
           style={{
             backfaceVisibility: "hidden",
             backgroundImage: `url(${product.image})`,

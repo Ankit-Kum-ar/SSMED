@@ -1,18 +1,18 @@
 export const products = [
     {
-        title: "Optimaser Atulya",
-        image: "/optimaser-atulya.png",
-        description: "A revolutionary device that enhances the precision of surgical procedures, ensuring optimal outcomes for patients.",
+        title: "Atulya",
+        image: "/atulya.png",
+        description: "Worlds 1st Portable Microwave Based Instant Handheld Steriliser. Instant sterilisation at 106 for all surfaces & objects up to 5 meters range."
     },
     {
-        title: "MAX 7 Plus Patient Monitor",
-        image: "/max-7-plus.png",
-        description: "A state-of-the-art patient monitoring system that provides real-time data and analytics for better patient care.",
+        title: "Optimaser",
+        image: "/Optimaser.png",
+        description: " A state-of-the-art microwave-based sterilizer designed for efficient and eco-friendly medical waste management."
     },
     {
-        title: "SSD 6000 CD Ultrasound Machine",
-        image: "/ssd-6000-cd.png",
-        description: "An advanced ultrasound machine designed for high-resolution imaging, making diagnostics faster and more accurate.",
+        title: "Swach Lab",
+        image: "/swatchlab.png",
+        description: "Hypo-chlorous acid-HOCl under specific electro-chemical conditions and treats lab effluents with simple off the shelf consumables."
     }
 ]
 
