@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="relative w-full h-126  rounded-lg shadow-lg cursor-pointer"
+      className="relative w-full md:h-126 h-96  rounded-lg shadow-lg cursor-pointer"
       style={{ perspective: "1000px" }}
       onClick={handleFlip}
     >

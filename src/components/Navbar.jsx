@@ -43,7 +43,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="p-2 text-xl font-bold">
-          SSMED
+          <img src="/ss_logo.-removebg-preview.png" alt="" className="h-12" />
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
