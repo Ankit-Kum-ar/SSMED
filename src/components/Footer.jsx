@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#5E98E7] text-white pt-12 pb-6 px-6 md:px-20">
+    <footer className="bg-teal-800 text-white pt-6 pb-2 px-6 md:px-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
         {/* Left Section: Company Info */}
         <div className="flex flex-col md:w-2/3 gap-6">
-          <h2 className="text-3xl font-extrabold md:mb-2 tracking-tight">
+          <h2 className="text-3xl font-extrabold tracking-tight">
             S.S. Medical Systems (India) Pvt. Ltd.
           </h2>
           <div className="text-base opacity-90 space-y-2">
@@ -52,10 +52,10 @@ const Footer = () => {
         </div>
 
         {/* Right Section: Quick Links & Social */}
-        <div className="flex flex-col md:w-1/3 gap-8">
+        <div className="flex flex-col md:w-1/3 gap-2">
           {/* Quick Links */}
           <div>
-            <h6 className="text-lg font-bold mb-3">Quick Links</h6>
+            <h6 className="text-lg font-bold mb-2">Quick Links</h6>
             <ul className=" opacity-90">
               <li>
                 <a href="/" className="btn btn-link px-0 text-left text-white hover:text-[#cbe6ff] no-underline">Home</a>
@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
           {/* Social Links */}
           <div>
-            <h6 className="text-lg font-bold mb-3">Follow Us</h6>
+            <h6 className="text-lg font-bold mb-2">Follow Us</h6>
             <div className="flex gap-4">
               <a
                 href="https://www.linkedin.com/company/ssmed"
@@ -114,7 +114,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-12 border-t border-white/20 pt-6 text-center text-gray-100 text-sm">
+      <div className="mt-4 border-t border-white/20 pt-2 text-center text-gray-100 text-sm">
         <p>
           © 2025 <span className="font-semibold">S.S. Medical Systems (India) Pvt. Ltd.</span> All rights reserved.
         </p>

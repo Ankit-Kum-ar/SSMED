@@ -36,7 +36,7 @@ const AboutUs = () => {
               viewBox="0 0 72 3"
               fill="none"
             >
-              <path d="M0 1.50049H72" stroke="#2F80ED" strokeWidth="2" />
+              <path d="M0 1.50049H72" stroke="#00796B" strokeWidth="2" />
             </svg>
             <h4 className="text-sm font-semibold uppercase text-neutral tracking-wider">
               Know About Us
@@ -54,7 +54,7 @@ const AboutUs = () => {
           <p className="text-[#525560] mb-6">
             With over 55,000 installations nationwide, a dedicated team of 100+ professionals, and a presence across multiple global offices, we are committed to delivering innovative healthcare solutions. Our mission is to enhance brand equity through upmarket technology and customer-centric services.
           </p>
-          <button className="btn bg-[#2F80ED] border-[#0059b3] text-primary-content">
+          <button className="btn bg-[#00796B] border-[#0059b3] text-[#E0F2F1] hover:bg-[#004D40] hover:border-[#004D40] ">
             Learn more
           </button>
         </div>

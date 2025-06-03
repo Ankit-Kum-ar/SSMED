@@ -6,12 +6,12 @@ export const products = [
     },
     {
         title: "Optimaser",
-        image: "/Optimaser.png",
+        image: "/OptiMaser 30.png",
         description: " A state-of-the-art microwave-based sterilizer designed for efficient and eco-friendly medical waste management."
     },
     {
         title: "Swach Lab",
-        image: "/swatchlab.png",
+        image: "/SwachhLab.png",
         description: "Hypo-chlorous acid-HOCl under specific electro-chemical conditions and treats lab effluents with simple off the shelf consumables."
     }
 ]
@@ -20,21 +20,21 @@ export const testimonials = [
   {
     name: " Dr. A. Sharma",
     role: "Delhi",
-    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp", // Replace with your image path
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp", // Replace with your image path
     quote:
     "S.S. Medical's equipment has significantly improved our diagnostic capabilities. Their commitment to quality is unparalleled."
   },
   {
     name: "Dr. L. Gupta",
     role: "Mumbai",
-    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
     quote:
     "The reliability and efficiency of their products have been a game-changer for our hospital operations."
   },
   {
     name: "Dr. R. Mehta",
     role: "Bangalore",
-    // image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    image: "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
     quote:
     "Exceptional service and top-notch equipment. Highly recommended!"
    },

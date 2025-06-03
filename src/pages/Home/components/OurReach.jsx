@@ -2,7 +2,7 @@ import { Building, Handshake, Hospital, Users } from 'lucide-react';
 
 const OurReach = () => {
   return (
-    <section className="bg-[#1F78F226] py-10 px-6 md:px-20 font-roboto">
+    <section className="bg-[#E0F2F1] py-10 px-6 md:px-20 font-roboto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
             {/* Left Content */}
             <div className="md:w-1/2">
@@ -14,7 +14,7 @@ const OurReach = () => {
                         viewBox="0 0 72 3"
                         fill="none"
                     >
-                        <path d="M0 1.50049H72" stroke="#2F80ED" strokeWidth="2" />
+                        <path d="M0 1.50049H72" stroke="#00796B" strokeWidth="2" />
                     </svg>
                     <h4 className="text-sm font-semibold uppercase text-neutral tracking-wider">
                         Our Presence
@@ -28,7 +28,7 @@ const OurReach = () => {
                 </p>
                 <ul className="space-y-12">
                     <li className="flex items-start gap-4">
-                        <div className="w-8 h-8 p-2 bg-[#2F80ED] text-[#FFEBB9] flex items-center justify-center rounded-full">
+                        <div className="w-8 h-8 p-2  bg-[#00796B] text-[#FFF3CD] flex items-center justify-center rounded-full">
                             <Building />
                         </div>
                         <div>
@@ -41,7 +41,7 @@ const OurReach = () => {
                         </div>
                     </li>
                     <li className="flex items-start gap-4">
-                        <div className="w-8 h-8 p-2  bg-[#2F80ED] text-[#FFEBB9] flex items-center justify-center rounded-full">
+                        <div className="w-8 h-8 p-2   bg-[#00796B] text-[#FFF3CD] flex items-center justify-center rounded-full">
                             <Handshake />
                         </div>
                         <div>
@@ -54,7 +54,7 @@ const OurReach = () => {
                         </div>
                     </li>
                     <li className="flex items-start gap-4">
-                        <div className="w-8 h-8 p-2 bg-[#2F80ED] text-[#FFEBB9] flex items-center justify-center rounded-full">
+                        <div className="w-8 h-8 p-2  bg-[#00796B] text-[#FFF3CD] flex items-center justify-center rounded-full">
                             <Hospital />
                         </div>
                         <div>
@@ -67,7 +67,7 @@ const OurReach = () => {
                         </div>
                     </li>
                     <li className="flex items-start gap-4">
-                        <div className="w-8 h-8 p-2 bg-[#2F80ED] text-[#FFEBB9] flex items-center justify-center rounded-full">
+                        <div className="w-8 h-8 p-2  bg-[#00796B] text-[#FFF3CD] flex items-center justify-center rounded-full">
                             <Users />
                         </div>
                         <div>

@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="relative w-full md:h-126 h-96  rounded-lg shadow-lg cursor-pointer"
+      className="relative w-full h-96 rounded-lg shadow-lg cursor-pointer group"
       style={{ perspective: "1000px" }}
       onClick={handleFlip}
     >
@@ -21,16 +21,18 @@ const ProductCard = ({ product }) => {
       >
         {/* Front Side */}
         <div
-          className="absolute inset-0 bg-opacity-50 flex items-center p-5 justify-center  text-white text-xl font-bold rounded-lg"
-          style={{
-            backfaceVisibility: "hidden",
-            backgroundImage: `url(${product.image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          {product.title}
-        </div>
+      className="absolute inset-0 flex flex-col items-center justify-center  rounded-lg bg-opacity-50"
+      style={{
+        backfaceVisibility: "hidden",
+      }}
+    >
+      <img
+        src={product.image}
+        alt={product.title}
+        className="w-full h-90 p-4 object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"
+      />
+      {/* <span className="mt-4 text-white text-xl font-bold">{product.title}</span> */}
+    </div>
 
         {/* Back Side */}
         <div
