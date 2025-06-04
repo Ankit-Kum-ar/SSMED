@@ -2,14 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-teal-800 text-white pt-6 pb-2 px-6 md:px-20">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+    <footer className="bg-teal-800 text-white pt-4 pb-1 px-4 md:px-12">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-6">
         {/* Left Section: Company Info */}
-        <div className="flex flex-col md:w-2/3 gap-6">
-          <h2 className="text-3xl font-extrabold tracking-tight">
+        <div className="flex flex-col md:w-2/3 gap-3">
+          <h2 className="text-2xl font-extrabold tracking-tight mb-1">
             S.S. Medical Systems (India) Pvt. Ltd.
           </h2>
-          <div className="text-base opacity-90 space-y-2">
+          <div className="text-sm opacity-90 space-y-1">
             <div className="flex items-start gap-2">
               <span className="material-symbols-outlined text-lg text-[#cbe6ff]">location_on</span>
               <span>
@@ -52,11 +52,11 @@ const Footer = () => {
         </div>
 
         {/* Right Section: Quick Links & Social */}
-        <div className="flex flex-col md:w-1/3 gap-2">
+        <div className="flex flex-col md:w-1/3 gap-1">
           {/* Quick Links */}
           <div>
-            <h6 className="text-lg font-bold mb-2">Quick Links</h6>
-            <ul className=" opacity-90">
+            <h6 className="text-base font-bold mb-1">Quick Links</h6>
+            <ul className="opacity-90 space-y-0.5">
               <li>
                 <a href="/" className="btn btn-link px-0 text-left text-white hover:text-[#cbe6ff] no-underline">Home</a>
               </li>
@@ -73,10 +73,10 @@ const Footer = () => {
           </div>
           {/* Social Links */}
           <div>
-            <h6 className="text-lg font-bold mb-2">Follow Us</h6>
-            <div className="flex gap-4">
+            <h6 className="text-base font-bold mb-1">Follow Us</h6>
+            <div className="flex gap-3">
               <a
-                href="https://www.linkedin.com/company/ssmed"
+                href="https://www.linkedin.com/in/ssmsipl/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -87,18 +87,20 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/ssmed"
+                href="https://www.instagram.com/ssmedworld/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Twitter"
-                className="btn btn-circle btn-outline border-white text-white hover:bg-[#1da1f2] hover:border-[#1da1f2] transition"
+                aria-label="Instagram"
+                className="btn btn-circle btn-outline border-white text-white hover:bg-[#E1306C] hover:border-[#E1306C] transition"
               >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.384 4.482c-4.086-.205-7.713-2.164-10.141-5.144a4.822 4.822 0 0 0-.666 2.475c0 1.708.87 3.216 2.188 4.099a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417a9.867 9.867 0 0 1-6.102 2.104c-.396 0-.787-.023-1.175-.069a13.945 13.945 0 0 0 7.548 2.212c9.057 0 14.009-7.513 14.009-14.009 0-.213-.005-.425-.014-.636a10.012 10.012 0 0 0 2.457-2.548z"/>
-                </svg>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+    <rect width="18" height="18" x="3" y="3" rx="5" stroke="currentColor" strokeWidth="1.5" />
+    <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" />
+    <circle cx="17" cy="7" r="1" fill="currentColor" />
+  </svg>
               </a>
               <a
-                href="https://facebook.com/ssmed"
+                href="https://www.facebook.com/ssmsipl/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -114,7 +116,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-4 border-t border-white/20 pt-2 text-center text-gray-100 text-sm">
+      <div className="mt-2 border-t border-white/20 pt-1 text-center text-gray-100 text-xs">
         <p>
           © 2025 <span className="font-semibold">S.S. Medical Systems (India) Pvt. Ltd.</span> All rights reserved.
         </p>
